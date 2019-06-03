@@ -1,0 +1,11 @@
+<launch>
+
+ <include file="$(find realsense2_camera)/launch/rs_rgbd.launch"/>
+ <node pkg="opencv_object_tracking" name = "position_estimation" type="object_filter" args="position" cwd="node" output="screen" respawn="false"/>
+<!-- <node pkg="find_object_2d" name = "vision_system" type="find_object_2d" args="vision" cwd="node" output="screen" respawn="false">
+    <remap from="/image" to="/camera/color/image_raw" />
+ </node>
+ <node pkg="find_object_2d" name = "position_estimation" type="print_objects_detected" args="position" cwd="node" output="screen" respawn="false"/>
+-->
+</launch>
+ 

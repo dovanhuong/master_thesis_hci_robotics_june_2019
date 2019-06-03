@@ -1,0 +1,8 @@
+<launch>
+
+ <node pkg="modman_comm" name = "ur_comm" type="ur_comm" args="modman_comm" cwd="node" output="screen" respawn="false">
+    <param name ="/use_sim_time" value="false"/>
+ </node>
+
+</launch>
+

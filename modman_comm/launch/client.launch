@@ -1,0 +1,6 @@
+<launch>
+
+ <node pkg="modman_comm" name = "client" type="client" args="server" cwd="node" output="screen" respawn="false" />
+
+</launch>
+
