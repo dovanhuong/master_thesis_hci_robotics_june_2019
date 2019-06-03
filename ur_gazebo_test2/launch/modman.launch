@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="limited" default="false"/>
+    <arg name="paused" default="true"/>
+    <arg name="gui" default="true"/>
+
+    <!-- startup simulated world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" default="worlds/empty.world"/>
+        <!--<arg name="world_name" value="$(find ur_gazebo_test2)/urdf/empty_world.world"/>-->
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="gui" value="$(arg gui)"/>
+    </include>
+
+    <node name="spawn_modman" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find ur_gazebo_test2)/urdf/modman.urdf -urdf -x 0 -z 0 -gazebo -model modman"
+        respawn="false" output="screen" />
+
+    <!--<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"/>-->
+    <!--<node name="rviz" pkg="rviz" type="rviz" required="true" />-->
+</launch>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="puck_simulator" pkg="puck_sim2" type="puck_sim_server"/>
+    <include file="$(find ur_gazebo)/launch/ur5.launch">
+    </include>
+
+    <!-- Robot pose -->
+    <arg name="x" default="2"/>
+    <arg name="y" default="0"/>
+    <arg name="z" default="0.2"/>
+    <arg name="roll" default="0"/>
+    <arg name="pitch" default="0"/>
+    <arg name="yaw" default="0"/>
+
+    <!-- Load models for objects in environment -->
+    <node name="spawn_object" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find ur_gazebo_test2)/urdf/golf_ball_object.sdf
+                     -sdf -x $(arg x) -z $(arg z) -gazebo -model my_object"/>
+
+    <node name="spawn_target" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find ur_gazebo_test2)/urdf/golf_ball_target.sdf
+                     -sdf -x $(arg x) -z 0.05 -y 1 -gazebo -model my_target"/>
+
+    <node name="golf_platform" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find golf_platform)/urdf/golf_platform.sdf -sdf -x 0 -z -0 -gazebo -model golf_platform"/>
+
+    <!--
+    <node name="spawn_visual_object" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find ur_gazebo_test2)/urdf/visual_object.sdf
+                     -sdf -x $(arg x) -z 0.05 -y 2 -gazebo -model my_visual_object"/>  -->
+
+
+    <!--
+    <node name="spawn_object" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find ur_gazebo_test2)/urdf/object.sdf
+                     -sdf -x $(arg x) -z $(arg z) -gazebo -model my_object"/>
+
+    <node name="spawn_target" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find ur_gazebo_test2)/urdf/target.sdf
+                     -sdf -x $(arg x) -z 0.05 -y 1 -gazebo -model my_target"/>
+    -->
+</launch>
