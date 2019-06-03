@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<sdf version="1.5">
+  <model name="my_cylinder">
+    <allow_auto_disable>false</allow_auto_disable>
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    <static>false</static>
+    <link name="link">
+      <inertial>
+        <mass>0.04593</mass>
+        <inertia>
+          <ixx>0.0833333 * 0.0376 * (3 * 0.045 * 0.021335 )</ixx>  <!-- 0.0833333 * 0.0376 * (3 * 0.045 * 0.021335 )-->
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.0833333 * 0.0376 * (3 * 0.045 * 0.021335 )</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.5 * 0.04593  </izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>0.021335</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <diffuse>1 0 0 1</diffuse>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>0.021335</radius>
+          </sphere>
+        </geometry>
+        <surface>
+          <bounce>
+            <restitution_coefficient>1</restitution_coefficient>
+            <threshold>0</threshold>
+          </bounce>
+          <friction>
+            <ode>
+              <mu>0.1</mu> <!-- was 0.17 0.05 0.07--> <!-- https://link.springer.com/content/pdf/10.1007%2F978-3-319-24560-7_16.pdf -->
+              <mu2>0.07</mu2> <!-- used to 1 0.07 -->
+            </ode>
+            <torsional>
+              <ode>
+                <slip>1</slip>
+              </ode>
+            </torsional>
+            <bullet><rolling_friction>0.06</rolling_friction></bullet>
+          </friction>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+            <ode>
+              <max_vel>10000</max_vel>
+              <kp>100000000000</kp>
+              <kd>0</kd>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+
+      <sensor name='my_contact' type='contact'>
+        <contact>
+          <collision>collision</collision>
+        </contact>
+      </sensor>
+    </link>
+  </model>
+</sdf>

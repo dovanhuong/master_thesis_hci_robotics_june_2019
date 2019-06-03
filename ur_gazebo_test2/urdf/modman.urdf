@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot name="modman_6dof_rightarm">
+    <link name="base">
+
+    </link>
+
+    <joint name="base_fixed" type="fixed">
+        <parent link="base"/>
+        <child link="torso"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="torso">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <!--<mesh filename="package://ur_gazebo_test2/stl/Torso.stl"/>-->
+                <box size="1 1 1"/>
+            </geometry>
+        </visual>
+        <!--<collision>-->
+            <!--<geometry>-->
+                <!--<mesh filename="package://ur_gazebo_test2/stl/Torso.stl"/>-->
+            <!--</geometry>-->
+        <!--</collision>-->
+    </link>
+</robot>
