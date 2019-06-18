@@ -1,0 +1,15 @@
+<package>
+  <description brief="puck_sim">
+
+     puck_sim
+
+  </description>
+  <author>skkim</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/puck_sim</url>
+  <depend package="roscpp"/>
+
+</package>
+
+

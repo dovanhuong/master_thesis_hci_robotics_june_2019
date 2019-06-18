@@ -1,0 +1,6 @@
+<launch>
+
+ <node pkg="puck_sim" name = "planner" type="example" args="planner" cwd="node" output="screen" respawn="false" />
+
+</launch>
+
