@@ -19,19 +19,11 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 <br>
 
 [![](http://img.youtube.com/vi/HdxvACGRTwI/0.jpg)](http://www.youtube.com/watch?v=HdxvACGRTwI "")
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HVbtnGaIi-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div align="center">
-    <iframe width="620" height="315"
-        src="https://www.youtube.com/watch?v=HVbtnGaIi-s&feature=youtu.be">
-    </iframe>
-</div>
-<div align="center">
-    <iframe width="620" height="315"
-        src="https://www.youtube.com/watch?v=HdxvACGRTwI&feature=youtu.be">
-    </iframe>
-</div>
+<br>
+<strong> The result in testbed with the hardware: </strong>
 
+[![](http://img.youtube.com/vi/HVbtnGaIi-s/0.jpg)](http://www.youtube.com/watch?v=HVbtnGaIi-s "")
 
 
 
