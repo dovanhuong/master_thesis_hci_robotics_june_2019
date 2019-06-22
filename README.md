@@ -9,12 +9,19 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 <br>
 <h4> Results</h4>
 <br>
-<strong> Mean of success</strong><br>
+<strong> Mean of success and sum of the reward after 3000 episodes of training</strong><br>
 <p align="center">
   <img src="https://github.com/dovanhuong/master_thesis_hci_robotics_june_2019/blob/master/doc/mean_of_success.png" width="350" title="hover text">
   <img src="https://github.com/dovanhuong/master_thesis_hci_robotics_june_2019/blob/master/doc/sum_of_reward.png" width="350" alt="accessibility text">
 </p>
-
+<br>
+<strong> The result in simulation: </strong>
+<br>
+https://youtu.be/HVbtnGaIi-s
+<br>
+<strong> The result in real hardware testbed:</strong>
+<br>
+https://youtu.be/HdxvACGRTwI
 
 
 
