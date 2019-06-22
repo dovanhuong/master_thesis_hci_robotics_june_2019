@@ -10,8 +10,8 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 <h4> Results</h4>
 <br>
 <strong> Mean of success</strong><br>
-https://github.com/dovanhuong/master_thesis_hci_robotics_june_2019/blob/master/doc/mean_of_success.png
+![alt text](https://github.com/dovanhuong/master_thesis_hci_robotics_june_2019/blob/master/doc/mean_of_success.png)
 <br><br>
 <strong> Sum of rewards </strong><br>
-https://github.com/dovanhuong/master_thesis_hci_robotics_june_2019/blob/master/doc/sum_of_reward.png
+![alt text](https://github.com/dovanhuong/master_thesis_hci_robotics_june_2019/blob/master/doc/sum_of_reward.png)
 
