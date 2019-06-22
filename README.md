@@ -18,13 +18,17 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 <strong> The result in simulation: </strong>
 <br>
 <p align="center">
+  
 [![](http://img.youtube.com/vi/HVbtnGaIi-s/0.jpg)](http://www.youtube.com/watch?v=HVbtnGaIi-s "")
+
 </p>
 <br>
 <strong> The result in testbed with the hardware: </strong>
 <br>
 <p align="center">
+  
 [![](http://img.youtube.com/vi/HdxvACGRTwI/0.jpg)](http://www.youtube.com/watch?v=HdxvACGRTwI "")
+
 </p>
 
 
