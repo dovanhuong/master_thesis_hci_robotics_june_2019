@@ -21,20 +21,17 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
   <a href="https://www.youtube.com/watch?v=HVbtnGaIi-s&feature=youtu.be"><img src="https://www.youtube.com/watch?v=HVbtnGaIi-s&feature=youtu.be" alt="IMAGE ALT TEXT"></a>
 </div>
 
+<div align="center">
+    <iframe width="620" height="315"
+        src="https://www.youtube.com/watch?v=HVbtnGaIi-s&feature=youtu.be">
+    </iframe>
+</div>
+<div align="center">
+    <iframe width="620" height="315"
+        src="https://www.youtube.com/watch?v=HdxvACGRTwI&feature=youtu.be">
+    </iframe>
+</div>
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=HVbtnGaIi-s&feature=youtu.be" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-<br>
-<strong> The result in real hardware testbed:</strong>
-<br>
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=HdxvACGRTwI&feature=youtu.be" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 
 
