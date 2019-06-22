@@ -17,9 +17,6 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 <br>
 <strong> The result in simulation: </strong>
 <br>
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=HVbtnGaIi-s&feature=youtu.be"><img src="https://www.youtube.com/watch?v=HVbtnGaIi-s&feature=youtu.be" alt="IMAGE ALT TEXT"></a>
-</div>
 
 <div align="center">
     <iframe width="620" height="315"
