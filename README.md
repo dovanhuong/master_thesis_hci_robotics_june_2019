@@ -87,8 +87,8 @@ Fifth, execute real environment with output of best policy in directory: <strong
 The result of training in simulation environment will be saved in directory:<strong><i>ur_gazebo_test2/scripts/q_learning_result</i></strong>
 
 <h2>Issues appears or problems</h2>
-Maintain: Huong Do Van<br>
-Email: vanhuong.robotics@gmail.com<br>
+<i>Maintain:</i> Huong Do Van<br>
+<i>Email:</i> vanhuong.robotics@gmail.com<br>
 
 
 	
