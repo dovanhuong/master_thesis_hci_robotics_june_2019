@@ -218,7 +218,7 @@ def launch(
 @click.option('--replay_strategy', type=click.Choice(['future', 'none']), default='future', help='the HER replay strategy to be used. "future" uses HER, "none" disables HER.')
 @click.option('--clip_return', type=int, default=1, help='whether or not returns should be clipped')
 @click.option('--use_initial_policy', type=bool, default=False, help='whether or not saved initial policy uses')
-@click.option('--initial_policy_file', type=str, default='./training_results_20181112_02/policy_best_32.pkl', help='initial policy file path')
+@click.option('--initial_policy_file', type=str, default='./training_results/policy_best.pkl', help='initial policy file path')
 def main(**kwargs):
     rospy.init_node('UR5_slide_test')
     launch(**kwargs)
