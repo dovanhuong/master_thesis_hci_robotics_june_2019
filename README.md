@@ -62,6 +62,13 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
   $ ls ( in order to check file ur_kin.i)<br>
   $ swig -c++ -python ur_kin.i (noted to check the content and link directory)<br>
   $ python setup.py build_ext --inplace<br>
+  <strong> Execute command to launch simulation environment of golf platform</strong><br>
+  $ roslaunch ur_gazebo_test2 ur5_golf_platform.launch<br>
+  <strong> After that execute Reinforcement learning algorithms under file:</strong> <br>
+  <i>q_learning_0612.py </i> For implement Q learning algorithms in golf platform environment.<br>
+  <i>ddpg_ur5_20190416.py</i> For implement DDPG learning algorithms in golf platform environment.<br>
+  Or you can create by your own algorithms in this environment<br>
+  
   
 
 
