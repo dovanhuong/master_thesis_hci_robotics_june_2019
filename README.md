@@ -55,6 +55,7 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 	$ pip install -e .<br>
 	$ pip install rospkg<br>
 	$ deactivate <br></p>
+- Download and using Pycharm community for linux and developer to execute algorithm inside the virtual environment at <a href="https://www.jetbrains.com/pycharm/download/#section=linux">here</a><br>
   <h2> Step working with simulation task and reinforcement learning algorithms implementation</h2>
   Before execute, add the text in <strong>bash</strong> file: <strong><i>export GAZEBO_MODEL_PATH=~/catkin_ws/src:{GAZEBO_MODEL_PATH}</i></strong><br>
   Convert from .cpp to .py library of ur_kinematic of Universal Robot under python language with Swig tool: 
@@ -69,7 +70,9 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
   <i>ddpg_ur5_20190416.py</i> For implement DDPG learning algorithms in golf platform environment.<br>
   Or you can create by your own algorithms in this environment<br>
   
-  
+   <h2> Step working with real test</h2>
+   First, you should connect your UR5 with ROS by checking <strong><i>IP address</i></strong> of UR5 at <a href="https://github.com/olinrobotics/irl/wiki/Tutorial:-Setting-up-and-running-the-UR5-Robotic-Arm">here</a><br> 
+Second, change the detail of IP address information inside the file: 
 
 
 
