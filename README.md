@@ -37,6 +37,7 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 - Install Gazebo 7.0 version simulation test and install packages plugin and control with option of install <strong>Pre-Built Debians</strong> at <a href="http://gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros">here</a><br>
 - Command for install <strong>Pre-Built Debians</strong> integrate with  Gazebo: $ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control<br>
 - Install Driver package for Camera Intel Realsense D435 for developer at <a href="https://github.com/IntelRealSense/realsense-ros#installation-instructions">here</a><br>
+- Download latest Realsense SDK 2.0 at <a href="https://github.com/IntelRealSense/librealsense/releases/tag/v2.16.3">here</a><br>
 - Install virtual environment in python3 and OpenAI Baselines by follows the command as below: <br>
         <p>$ sudo apt-get install python-pip<br>
 	$ sudo apt-get install python3-pip<br>
@@ -54,6 +55,7 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 	$ pip install -e .<br>
 	$ pip install rospkg<br>
 	$ deactivate <br></p>
+  <h2> Step working with simulation task and reinforcement learning algorithms implementation</h2>
   
 
 
