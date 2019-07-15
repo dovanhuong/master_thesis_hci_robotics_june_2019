@@ -58,11 +58,14 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 - Download and using Pycharm community for linux and developer to execute algorithm inside the virtual environment at <a href="https://www.jetbrains.com/pycharm/download/#section=linux">here</a><br>
   <h2> Step working with simulation task and reinforcement learning algorithms implementation</h2>
   Before execute, add the text in <strong>bash</strong> file: <strong><i>export GAZEBO_MODEL_PATH=~/catkin_ws/src:{GAZEBO_MODEL_PATH}</i></strong><br>
-  Convert from .cpp to .py library of ur_kinematic of Universal Robot under python language with Swig tool: 
+  Convert from .cpp to .py library of ur_kinematic of Universal Robot under python language with <strong><i>swig</i></strong> tool:<br> 
   $ cd catkin_ws/src/universal_robot/ur_kinematics/src/<br>
   $ ls ( in order to check file ur_kin.i)<br>
   $ swig -c++ -python ur_kin.i (noted to check the content and link directory)<br>
   $ python setup.py build_ext --inplace<br>
+  <strong>Compile catkin_ws workspace by execute command:<br>
+	$ catkin_make<br>
+	$ source devel/setup.bash<br>
   <strong> Execute command to launch simulation environment of golf platform</strong><br>
   $ roslaunch ur_gazebo_test2 ur5_golf_platform.launch<br>
   <strong> After that execute Reinforcement learning algorithms under file:</strong> <br>
@@ -72,7 +75,14 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
   
    <h2> Step working with real test</h2>
    First, you should connect your UR5 with ROS by checking <strong><i>IP address</i></strong> of UR5 at <a href="https://github.com/olinrobotics/irl/wiki/Tutorial:-Setting-up-and-running-the-UR5-Robotic-Arm">here</a><br> 
-Second, change the detail of IP address information inside the file: 
+Second, change the detail of IP address information inside the file: <strong><i>modman_comm/src/ur_comm.cpp</i></strong> at line 32 with the right name of your UR IP address.<br>
+Second, execute connect UR5 with ROS by run command:<br>
+$ roslaunch modman_comm ur_comm.launch<br>
+Third, execute vision system by the command:<br>
+$ roslaunch modman_comm modman_vision.launch <br>
+Fourth, execute reinforcement learning algorithm by the policy file at diretory: <strong><i>ur_gazebo_test2/experiment/training_results/policy_best.pkl</i><strong><br>
+	
+
 
 
 
