@@ -56,6 +56,12 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 	$ pip install rospkg<br>
 	$ deactivate <br></p>
   <h2> Step working with simulation task and reinforcement learning algorithms implementation</h2>
+  Before execute, add the text in <strong>bash</strong> file: <strong><i>export GAZEBO_MODEL_PATH=~/catkin_ws/src:{GAZEBO_MODEL_PATH}</i></strong><br>
+  Convert from .cpp to .py library of ur_kinematic of Universal Robot under python language with Swig tool: 
+  $ cd catkin_ws/src/universal_robot/ur_kinematics/src/<br>
+  $ ls ( in order to check file ur_kin.i)<br>
+  $ swig -c++ -python ur_kin.i (noted to check the content and link directory)<br>
+  $ python setup.py build_ext --inplace<br>
   
 
 
