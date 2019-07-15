@@ -32,8 +32,11 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 </p>
 <h1 style="color:blue;"> Instruction to compile source code</h1>
 <h2> Neccessary packages and installation</h2> 
-- ROS Kinetic framework installation instruction at <a href="http://wiki.ros.org/kinetic/Installation/Ubuntu">here</a><br>
-- Install Driver package for Camera Intel Realsense D435 for developer at <a href="http://wiki.ros.org/realsense2_camera">here</a><br>
+- ROS Kinetic framework installation instruction at <a href="http://wiki.ros.org/kinetic/Installation/Ubuntu">here</a> and create catkin workspace for project. <br> 
+- Install Driver package for Camera Intel Realsense D435 for developer at <a href="https://github.com/IntelRealSense/realsense-ros#installation-instructions">here</a><br>
+
+
+
 
 
 
