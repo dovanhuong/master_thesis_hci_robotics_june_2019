@@ -38,7 +38,7 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 - Command for install <strong>Pre-Built Debians</strong> integrate with  Gazebo: $ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control<br>
 - Install Driver package for Camera Intel Realsense D435 for developer at <a href="https://github.com/IntelRealSense/realsense-ros#installation-instructions">here</a><br>
 - Install virtual environment in python3 and OpenAI Baselines by follows the command as below: <br>
-  $ sudo apt-get install python-pip<br>
+        <p>$ sudo apt-get install python-pip<br>
 	$ sudo apt-get install python3-pip<br>
 	$ sudo pip install virtualenv<br>
 	$ virtualenv -p python3 [name_virtual_env]<br>
@@ -53,7 +53,7 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 	$ cd baselines<br>
 	$ pip install -e .<br>
 	$ pip install rospkg<br>
-	$ deactivate <br>
+	$ deactivate <br></p>
   
 
 
