@@ -81,6 +81,7 @@ $ roslaunch modman_comm ur_comm.launch<br>
 Third, execute vision system by the command:<br>
 $ roslaunch modman_comm modman_vision.launch <br>
 Fourth, execute reinforcement learning algorithm by the policy file at diretory: <strong><i>ur_gazebo_test2/experiment/training_results/policy_best.pkl</i></strong><br>
+
 	
 
 
