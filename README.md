@@ -83,6 +83,8 @@ $ roslaunch modman_comm modman_vision.launch <br>
 Fourth, execute reinforcement learning algorithm by the policy file at diretory: <strong><i>ur_gazebo_test2/experiment/training_results/policy_best.pkl</i></strong><br>
 Fifth, execute real environment with output of best policy in directory: <strong>ur_gazebo_test2/experiment/train.py</strong>. Inside this training file, you can add your own policy in line 221. In this case the default policy file is <strong><i>policy_best.pkl</i></strong>.<br>
 
+<h2> Plot the output result of training</h2>
+The result of training in simulation environment will be saved in directory:<strong><i>ur_gazebo_test2/scripts/q_learning_result</i></strong>
 
 	
 
