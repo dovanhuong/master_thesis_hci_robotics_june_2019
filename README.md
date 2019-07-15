@@ -63,7 +63,7 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
   $ ls ( in order to check file ur_kin.i)<br>
   $ swig -c++ -python ur_kin.i (noted to check the content and link directory)<br>
   $ python setup.py build_ext --inplace<br>
-  <strong>Compile catkin_ws workspace by execute command:<br>
+  <strong>Compile catkin_ws workspace by execute command:</strong><br>
 	$ catkin_make<br>
 	$ source devel/setup.bash<br>
   <strong> Execute command to launch simulation environment of golf platform</strong><br>
