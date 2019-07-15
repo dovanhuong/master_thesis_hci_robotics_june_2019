@@ -32,8 +32,14 @@ From Center Medical Robotics at  Korea Institute of Science and Technology <br>
 </p>
 <h1 style="color:blue;"> Instruction to compile source code</h1>
 <h2> Neccessary packages and installation</h2> 
-- ROS Kinetic framework installation instruction at <a href="http://wiki.ros.org/kinetic/Installation/Ubuntu">here</a> and create catkin workspace for project. <br> 
+- ROS Kinetic full desktop version framework installation instruction at <a href="http://wiki.ros.org/kinetic/Installation/Ubuntu">here</a> and create catkin workspace for project. <br> 
+- Install OpenCV library for ROS at <a href="https://www.learnopencv.com/install-opencv3-on-ubuntu/">here</a><br>
+- Install Gazebo 7.0 version simulation test and install packages plugin and control with option of install <strong>Pre-Built Debians</strong> at <a href="http://gazebosim.org/tutorials?tut=ros_installing&cat=connect_ros">here</a><br>
+- Command for install <strong>Pre-Built Debians integrate with  Gazebo: \$ sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control<br>
 - Install Driver package for Camera Intel Realsense D435 for developer at <a href="https://github.com/IntelRealSense/realsense-ros#installation-instructions">here</a><br>
+
+
+
 
 
 
